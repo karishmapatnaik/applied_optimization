@@ -59,9 +59,9 @@ gurobi_setup
 ** Linking Done!
 
 ## Step 4: Sanity Check
-Let us check theinstallation by running the following on a newly opened MATLAB window:
+Let us check theinstallation by running the following on a newly opened MATLAB window: (please note I do not have the external toolboxes added to my MATLAB startup)
 ```
-tbxManager restorepath (I do not have it added to my MATLAB startup)
+tbxManager restorepath 
 yalmiptest
 ```
 You will see that YALMIP is able to use GUROBI as the underlying solver for LP/QP, MILP, MIQP, etc. after you run the test function script as shown by the below image:
